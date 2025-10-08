@@ -77,6 +77,266 @@
       "reviewCount": 12,
       "inStock": false,
       "featured": false
+    },
+    {
+      "id": "4",
+      "title": "Fundamentals of Classical Mechanics",
+      "author": "Dr. Hahsem Mdoukh",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 99.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics",
+        "University"
+      ],
+      "datePublished": "2022-01-15",
+      "pages": 1000,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 4.8,
+      "reviewCount": 15,
+      "inStock": false,
+      "featured": true
+    },
+    {
+      "id": "5",
+      "title": "Fundamentals of Classical Mechanics",
+      "author": "Dr. Hahsem ’Mohammed",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 99.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics",
+        "University"
+      ],
+      "datePublished": "2022-01-15",
+      "pages": 1000,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 4.8,
+      "reviewCount": 15,
+      "inStock": false,
+      "featured": true
+    },
+    {
+      "id": "6",
+      "title": "Fundamentals of Classical Mechanics",
+      "author": "Dr. Hahsem ’Mohammed",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 99.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics",
+        "University"
+      ],
+      "datePublished": "2022-01-15",
+      "pages": 1000,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 4.8,
+      "reviewCount": 15,
+      "inStock": false,
+      "featured": false
+    },
+    {
+      "id": "7",
+      "title": "Fundamentals of Classical Mechanics",
+      "author": "Dr. Hahsem ’Mohammed",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 99.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics",
+        "University"
+      ],
+      "datePublished": "2022-01-15",
+      "pages": 1000,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 4.8,
+      "reviewCount": 15,
+      "inStock": false,
+      "featured": true
+    },
+    {
+      "id": 8,
+      "title": "Fundamentals of Classical Mechanics",
+      "author": "Dr. Yousef",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 12.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics",
+        "University"
+      ],
+      "datePublished": "2022-01-15",
+      "pages": 150,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 4.4,
+      "reviewCount": 15,
+      "inStock": false,
+      "featured": true
+    },
+    {
+      "id": 9,
+      "title": "Fundamentals of Classical Mechanics",
+      "author": "Dr. Yousef",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 12.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics",
+        "University"
+      ],
+      "datePublished": "2022-01-15",
+      "pages": 150,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 4.4,
+      "reviewCount": 15,
+      "inStock": false,
+      "featured": true
+    },
+    {
+      "id": 10,
+      "title": "Fundamentals of Classical Mechanics",
+      "author": "Dr. Yousef",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 12.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics",
+        "University"
+      ],
+      "datePublished": "2022-01-15",
+      "pages": 150,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 4.4,
+      "reviewCount": 15,
+      "inStock": false,
+      "featured": true
+    },
+    {
+      "id": 150,
+      "title": "ddd of Classical Mechanics",
+      "author": "Dr. Yousef",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 12.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics",
+        "University"
+      ],
+      "datePublished": "2022-01-15",
+      "pages": 150,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 4.4,
+      "reviewCount": 15,
+      "inStock": false,
+      "featured": true
+    },
+    {
+      "id": 150,
+      "title": "eeeee of Classical Mechanics",
+      "author": "Dr. Yousef",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 12.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics",
+        "University"
+      ],
+      "datePublished": "2022-01-15",
+      "pages": 150,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 4.4,
+      "reviewCount": 15,
+      "inStock": false,
+      "featured": true
+    },
+    {
+      "id": 160,
+      "title": "eeeee of Classical Mechanics",
+      "author": "Dr. Yousef",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 12.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics",
+        "University"
+      ],
+      "datePublished": "2022-01-15",
+      "pages": 150,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 4.4,
+      "reviewCount": 15,
+      "inStock": false,
+      "featured": true
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "books": [
     {
-      "id": "1",
+      "id": 1,
       "title": "Fundamentals of Classical Mechanics",
       "author": "Dr. Ahmad Al-Kindi",
       "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
@@ -27,7 +27,7 @@
       "featured": true
     },
     {
-      "id": "2",
+      "id": 2,
       "title": "Quantum Physics: Principles and Applications",
       "author": "Prof. Fatima Al-Haytham",
       "description": "An advanced textbook exploring quantum mechanics, wave functions, uncertainty principles, and quantum applications in modern technology.",
@@ -53,7 +53,7 @@
       "featured": true
     },
     {
-      "id": "3",
+      "id": 3,
       "title": "Stellar Astrophysics and Galactic Structure",
       "author": "Dr. Omar Al-Battani",
       "description": "Explores stellar evolution, galactic dynamics, and cosmological structures with emphasis on observational techniques and theoretical frameworks.",
@@ -79,7 +79,7 @@
       "featured": false
     },
     {
-      "id": "4",
+      "id": 4,
       "title": "Fundamentals of Classical Mechanics",
       "author": "Dr. Hahsem Mdoukh",
       "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
@@ -105,7 +105,7 @@
       "featured": true
     },
     {
-      "id": "5",
+      "id": 5,
       "title": "Fundamentals of Classical Mechanics",
       "author": "Dr. Hahsem ’Mohammed",
       "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
@@ -131,7 +131,7 @@
       "featured": true
     },
     {
-      "id": "6",
+      "id": 6,
       "title": "Fundamentals of Classical Mechanics",
       "author": "Dr. Hahsem ’Mohammed",
       "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
@@ -157,7 +157,7 @@
       "featured": false
     },
     {
-      "id": "7",
+      "id": 8,
       "title": "Fundamentals of Classical Mechanics",
       "author": "Dr. Hahsem ’Mohammed",
       "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
@@ -178,6 +178,32 @@
       "language": "English",
       "publisher": "Al-Biruni Academic Press",
       "rating": 4.8,
+      "reviewCount": 15,
+      "inStock": false,
+      "featured": true
+    },
+    {
+      "id": 7,
+      "title": "eeeee of Classical Mechanics",
+      "author": "Dr. Yousef",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 12.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics",
+        "University"
+      ],
+      "datePublished": "2022-01-15",
+      "pages": 150,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 4.4,
       "reviewCount": 15,
       "inStock": false,
       "featured": true
@@ -261,8 +287,8 @@
       "featured": true
     },
     {
-      "id": 150,
-      "title": "ddd of Classical Mechanics",
+      "id": 11,
+      "title": "ddddd of Classical Mechanics",
       "author": "Dr. Yousef",
       "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
       "price": 12.99,
@@ -287,35 +313,9 @@
       "featured": true
     },
     {
-      "id": 150,
-      "title": "eeeee of Classical Mechanics",
-      "author": "Dr. Yousef",
-      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
-      "price": 12.99,
-      "image": "/images/book1.jpg",
-      "isbn": "978-0123456789",
-      "genre": [
-        "Physics",
-        "Textbook"
-      ],
-      "tags": [
-        "Mechanics",
-        "Physics",
-        "University"
-      ],
-      "datePublished": "2022-01-15",
-      "pages": 150,
-      "language": "English",
-      "publisher": "Al-Biruni Academic Press",
-      "rating": 4.4,
-      "reviewCount": 15,
-      "inStock": false,
-      "featured": true
-    },
-    {
-      "id": 160,
-      "title": "eeeee of Classical Mechanics",
-      "author": "Dr. Yousef",
+      "id": 12,
+      "title": "Classical Mechanics",
+      "author": "Dr. Hashem",
       "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
       "price": 12.99,
       "image": "/images/book1.jpg",

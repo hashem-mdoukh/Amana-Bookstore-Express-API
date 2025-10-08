@@ -3,7 +3,6 @@ const path = require("path");
 const { loadJSON } = require("../utils/fileUtils");
 
 const booksPath = path.join(__dirname, "..", "..", "data", "books.json");
-const reviewsPath = path.join(__dirname, "..", "..", "data", "reviews.json");
 
 const booksData = loadJSON("books.json");
 const reviewsData = loadJSON("reviews.json");
@@ -20,7 +19,7 @@ exports.getAllBooks = (req, res) => {
 exports.getBookById = (req, res) => {
   const { id } = req.params;
 
-  const book = books.find((b) => b.id.toString() === id.toString());
+  const book = books.find((b) => b.id === parseInt(id));
 
   if (!book) return res.status(404).json({ error: "Book not found" });
   res.json(book);
@@ -62,24 +61,21 @@ exports.getFeaturedBooks = (req, res) => {
 // Get reviews for specific book
 exports.getBookReviews = (req, res) => {
   const { id } = req.params;
-  const bookExists = books.some((b) => b.id.toString() === id.toString());
+  const bookExists = books.some((b) => b.id === parseInt(id));
   if (!bookExists) return res.status(404).json({ error: "Book not found" });
 
-  const related = reviews.filter((r) => r.bookId.toString() === id.toString());
+  const related = reviews.filter((r) => r.bookId === parseInt(id));
   res.json(related);
 };
 
 // POST: Add a new book
 exports.addBook = (req, res) => {
-  // 1. منطق توليد ID رقمي فريد
-  // // نجد أكبر ID رقمي حالي ونضيف عليه 1
-  // const maxId = books.reduce((max, book) => {
-  //   // التأكد من أن الـ ID هو رقم صحيح قبل المقارنة، وإلا نعتبره 0
-  //   const currentIdNum = parseInt(book.id, 10);
-  //   return currentIdNum && currentIdNum > max ? currentIdNum : max;
-  // }, 0);
+  const maxId = books.reduce((max, book) => {
+    const currentIdNum = parseInt(book.id, 10);
+    return currentIdNum && currentIdNum > max ? currentIdNum : max;
+  }, 0);
 
-  // const newId = maxId + 1; // <--- ID الآن هو رقم صحيح (مثل 101)
+  const newId = maxId + 1; 
 
   const {
     title,
@@ -105,7 +101,7 @@ exports.addBook = (req, res) => {
   }
 
   const newBook = {
-    id: 160,
+    id: newId,
     title,
     author,
     description: description || "No description provided.",

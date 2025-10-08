@@ -2,7 +2,7 @@
   "reviews": [
     {
       "id": "review-1",
-      "bookId": "1",
+      "bookId": 1,
       "author": "Dr. Yasmin Al-Baghdadi",
       "rating": 5,
       "title": "Excellent foundation for physics students",
@@ -12,7 +12,7 @@
     },
     {
       "id": "review-2",
-      "bookId": "1",
+      "bookId": 1,
       "author": "Ahmad Khalil",
       "rating": 4,
       "title": "Clear explanations of complex concepts",
@@ -22,7 +22,7 @@
     },
     {
       "id": "review-3",
-      "bookId": "1",
+      "bookId": 1,
       "author": "Prof. Layla Al-Masri",
       "rating": 5,
       "title": "Perfect for engineering applications",
@@ -32,7 +32,7 @@
     },
     {
       "id": "review-4",
-      "bookId": "1",
+      "bookId": 1,
       "author": "Omar Hassan",
       "rating": 4,
       "title": "Good mathematical rigor",
@@ -42,7 +42,7 @@
     },
     {
       "id": "review-5",
-      "bookId": "1",
+      "bookId": 1,
       "author": "Fatima Al-Zahra",
       "rating": 5,
       "title": "Essential for physics majors",
@@ -52,7 +52,7 @@
     },
     {
       "id": "review-6",
-      "bookId": "2",
+      "bookId": 2,
       "author": "Prof. Khalid Al-Razi",
       "rating": 5,
       "title": "Outstanding quantum mechanics text",
@@ -62,7 +62,7 @@
     },
     {
       "id": "review-7",
-      "bookId": "2",
+      "bookId": 2,
       "author": "Zahra Mansour",
       "rating": 4,
       "title": "Advanced but accessible",
@@ -72,7 +72,7 @@
     },
     {
       "id": "review-8",
-      "bookId": "2",
+      "bookId": 2,
       "author": "Dr. Samir Al-Kindi",
       "rating": 5,
       "title": "Comprehensive quantum theory",
@@ -82,7 +82,7 @@
     },
     {
       "id": "review-9",
-      "bookId": "2",
+      "bookId": 2,
       "author": "Nadia Al-Sharif",
       "rating": 4,
       "title": "Excellent for graduate students",
@@ -92,7 +92,7 @@
     },
     {
       "id": "review-10",
-      "bookId": "2",
+      "bookId": 2,
       "author": "Prof. Tariq Al-Dimashqi",
       "rating": 5,
       "title": "Modern approach to quantum mechanics",
@@ -102,7 +102,7 @@
     },
     {
       "id": "review-60",
-      "bookId": "15",
+      "bookId": 15,
       "author": "Dr. Amina Al-Andalusi",
       "rating": 4,
       "title": "Excellent climate science integration",

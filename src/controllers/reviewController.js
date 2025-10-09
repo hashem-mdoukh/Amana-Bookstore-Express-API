@@ -3,7 +3,6 @@ const path = require("path");
 const { loadJSON } = require("../utils/fileUtils");
 
 const reviewsPath = path.join(__dirname, "..", "..", "data", "reviews.json");
-const booksPath = path.join(__dirname, "..", "..", "data", "books.json");
 
 exports.addReview = (req, res) => {
   const reviewsData = loadJSON("reviews.json");

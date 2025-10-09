@@ -1,5 +1,4 @@
 // A very simple mock authentication middleware
-
 const AUTH_TOKEN = 'mysecrettoken123'; // you can store this in .env in production
 
 function authenticate(req, res, next) {

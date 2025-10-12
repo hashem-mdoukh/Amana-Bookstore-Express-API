@@ -2,7 +2,7 @@
   "reviews": [
     {
       "id": "review-1",
-      "bookId": "1",
+      "bookId": 1,
       "author": "Dr. Yasmin Al-Baghdadi",
       "rating": 5,
       "title": "Excellent foundation for physics students",
@@ -12,7 +12,7 @@
     },
     {
       "id": "review-2",
-      "bookId": "1",
+      "bookId": 1,
       "author": "Ahmad Khalil",
       "rating": 4,
       "title": "Clear explanations of complex concepts",
@@ -22,7 +22,7 @@
     },
     {
       "id": "review-3",
-      "bookId": "1",
+      "bookId": 1,
       "author": "Prof. Layla Al-Masri",
       "rating": 5,
       "title": "Perfect for engineering applications",
@@ -32,7 +32,7 @@
     },
     {
       "id": "review-4",
-      "bookId": "1",
+      "bookId": 1,
       "author": "Omar Hassan",
       "rating": 4,
       "title": "Good mathematical rigor",
@@ -42,7 +42,7 @@
     },
     {
       "id": "review-5",
-      "bookId": "1",
+      "bookId": 1,
       "author": "Fatima Al-Zahra",
       "rating": 5,
       "title": "Essential for physics majors",
@@ -52,7 +52,7 @@
     },
     {
       "id": "review-6",
-      "bookId": "2",
+      "bookId": 2,
       "author": "Prof. Khalid Al-Razi",
       "rating": 5,
       "title": "Outstanding quantum mechanics text",
@@ -62,7 +62,7 @@
     },
     {
       "id": "review-7",
-      "bookId": "2",
+      "bookId": 2,
       "author": "Zahra Mansour",
       "rating": 4,
       "title": "Advanced but accessible",
@@ -72,7 +72,7 @@
     },
     {
       "id": "review-8",
-      "bookId": "2",
+      "bookId": 2,
       "author": "Dr. Samir Al-Kindi",
       "rating": 5,
       "title": "Comprehensive quantum theory",
@@ -82,7 +82,7 @@
     },
     {
       "id": "review-9",
-      "bookId": "2",
+      "bookId": 2,
       "author": "Nadia Al-Sharif",
       "rating": 4,
       "title": "Excellent for graduate students",
@@ -92,7 +92,7 @@
     },
     {
       "id": "review-10",
-      "bookId": "2",
+      "bookId": 2,
       "author": "Prof. Tariq Al-Dimashqi",
       "rating": 5,
       "title": "Modern approach to quantum mechanics",
@@ -102,12 +102,156 @@
     },
     {
       "id": "review-60",
-      "bookId": "15",
+      "bookId": 15,
       "author": "Dr. Amina Al-Andalusi",
       "rating": 4,
       "title": "Excellent climate science integration",
       "comment": "Great integration of geophysics with climate science. The plate tectonics chapters are well-written and current.",
       "timestamp": "2024-03-08T11:40:00Z",
+      "verified": true
+    },
+    {
+      "id": "r12",
+      "bookId": 6,
+      "user": "Hashem Mdoukh",
+      "rating": 5,
+      "comment": ""
+    },
+    {
+      "id": "r13",
+      "bookId": 20,
+      "user": "Hashem Mdoukh",
+      "rating": 5,
+      "comment": "This Is Amazing book"
+    },
+    {
+      "id": "review-61",
+      "bookId": 3,
+      "author": "Dr. Hahsem ’Mohammed",
+      "rating": 5,
+      "title": "Fundamentals of Classical Mechanics",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-08T08:39:42.340Z",
+      "verified": true
+    },
+    {
+      "id": "review-62",
+      "bookId": 1,
+      "author": "Dr. Hahsem ’Mohammed",
+      "rating": 5,
+      "title": "Fundamentals of Classical Mechanics",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-08T08:55:02.890Z",
+      "verified": true
+    },
+    {
+      "id": "review-63",
+      "bookId": 7,
+      "author": "Dr. Hahsem ’Mohammed",
+      "rating": 5,
+      "title": "Fundamentals of Classical Mechanics",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-08T09:00:53.390Z",
+      "verified": true
+    },
+    {
+      "id": "review-64",
+      "bookId": 1,
+      "author": "Dr. Hahsem ’Mohammed",
+      "rating": 5,
+      "title": "Fundamentals of Classical Mechanics",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-08T09:17:41.217Z",
+      "verified": true
+    },
+    {
+      "id": "review-65",
+      "bookId": 1,
+      "author": "Dr. Hahsem ’Mohammed",
+      "rating": 5,
+      "title": "Fundamentals of Classical Mechanics",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-08T09:18:53.770Z",
+      "verified": true
+    },
+    {
+      "id": "review-66",
+      "bookId": 3,
+      "author": "Dr. Hahsem ’Mohammed",
+      "rating": 5,
+      "title": "Fundamentals of Classical Mechanics",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-08T09:21:52.966Z",
+      "verified": true
+    },
+    {
+      "id": "review-67",
+      "bookId": 4,
+      "author": "Dr. Hahsem mdoukh",
+      "rating": 5,
+      "title": "Fundamentals of Classical Mechanics",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-08T10:02:57.442Z",
+      "verified": true
+    },
+    {
+      "id": "review-68",
+      "bookId": 4,
+      "author": "Dr. yousef",
+      "rating": 4,
+      "title": "Fundamentals of Classical Mechanics",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-08T10:03:59.129Z",
+      "verified": true
+    },
+    {
+      "id": "review-69",
+      "bookId": 7,
+      "author": "Dr. yousef",
+      "rating": 4,
+      "title": "Fundamentals of Classical Mechanics",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-08T10:10:59.382Z",
+      "verified": true
+    },
+    {
+      "id": "review-70",
+      "bookId": 10,
+      "author": "Dr. yousef",
+      "rating": 4,
+      "title": "Fundamentals of Classical Mechanics",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-08T10:19:26.366Z",
+      "verified": true
+    },
+    {
+      "id": "review-71",
+      "bookId": 160,
+      "author": "Dr. yousef",
+      "rating": 4,
+      "title": "Fundamentals of Classical Mechanics",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-08T10:30:44.930Z",
+      "verified": true
+    },
+    {
+      "id": "review-72",
+      "bookId": 3,
+      "author": "Hashem Mohammed",
+      "rating": 3,
+      "title": "Fundamentals of Developments",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-10T08:38:52.173Z",
+      "verified": true
+    },
+    {
+      "id": "review-73",
+      "bookId": 4,
+      "author": "Hashem Mohammed",
+      "rating": 3,
+      "title": "Fundamentals of Developments",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-10T08:39:16.887Z",
       "verified": true
     }
   ]

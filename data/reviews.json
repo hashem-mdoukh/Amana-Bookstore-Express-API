@@ -233,6 +233,26 @@
       "comment": "A must-read for every developer!",
       "timestamp": "2025-10-08T10:30:44.930Z",
       "verified": true
+    },
+    {
+      "id": "review-72",
+      "bookId": 3,
+      "author": "Hashem Mohammed",
+      "rating": 3,
+      "title": "Fundamentals of Developments",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-10T08:38:52.173Z",
+      "verified": true
+    },
+    {
+      "id": "review-73",
+      "bookId": 4,
+      "author": "Hashem Mohammed",
+      "rating": 3,
+      "title": "Fundamentals of Developments",
+      "comment": "A must-read for every developer!",
+      "timestamp": "2025-10-10T08:39:16.887Z",
+      "verified": true
     }
   ]
 }

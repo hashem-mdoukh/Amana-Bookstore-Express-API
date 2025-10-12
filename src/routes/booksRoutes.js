@@ -7,6 +7,7 @@ router.get('/', booksController.getAllBooks);
 router.get('/range', booksController.getBooksByRange);
 router.get('/top-rated', booksController.getTopRatedBooks);
 router.get('/featured', booksController.getFeaturedBooks);
+router.get('/search', booksController.searchBooks);
 router.get('/:id/reviews', booksController.getBookReviews);
 router.get('/:id', booksController.getBookById);
 

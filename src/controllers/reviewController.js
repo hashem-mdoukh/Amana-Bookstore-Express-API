@@ -4,7 +4,7 @@ const { loadJSON } = require("../utils/fileUtils");
 
 const reviewsPath = path.join(__dirname, "..", "..", "data", "reviews.json");
 
-exports.addReview = (req, res) => {
+const addReview = (req, res) => {
   const reviewsData = loadJSON("reviews.json");
   const booksData = loadJSON("books.json");
 
@@ -15,15 +15,17 @@ exports.addReview = (req, res) => {
     const { bookId, author, rating, title, comment } = req.body;
 
     if (!bookId || !author || !rating || !title) {
-      return res.status(400).json({
+      return res.json({
         error: "bookId, author, rating, and title are required.",
+        status: 400
       });
     }
 
     const bookExists = books.some((b) => b.id === bookId);
     if (!bookExists) {
-      return res.status(404).json({
+      return res.json({
         error: `Book with ID ${bookId} not found.`,
+        status: 404
       });
     }
 
@@ -48,12 +50,17 @@ exports.addReview = (req, res) => {
     reviews.push(newReview);
     fs.writeFileSync(reviewsPath, JSON.stringify({ reviews }, null, 2));
 
-    res.status(201).json({
+    res.json({
       message: "Review added successfully.",
+      status: 201,
       review: newReview,
     });
   } catch (error) {
     console.error("Error adding review:", error);
-    res.status(500).json({ error: "Internal server error." });
+    res.json({ error: "Internal server error.", status: 500 });
   }
+};
+
+module.exports = {
+  addReview,
 };

@@ -571,6 +571,56 @@
       "reviewCount": 20,
       "inStock": false,
       "featured": true
+    },
+    {
+      "id": 23,
+      "title": "test 2",
+      "author": "Dr. Hashem mohammed",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 30.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics"
+      ],
+      "datePublished": "2022-01-23",
+      "pages": 150,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 4.9,
+      "reviewCount": 20,
+      "inStock": false,
+      "featured": false
+    },
+    {
+      "id": 24,
+      "title": "test 2",
+      "author": "Dr. Hashem mohammed",
+      "description": "A comprehensive introduction to classical mechanics covering Newtonian dynamics, conservation laws, rotational motion, and oscillations with modern applications.",
+      "price": 30.99,
+      "image": "/images/book1.jpg",
+      "isbn": "978-0123456789",
+      "genre": [
+        "Physics",
+        "Textbook"
+      ],
+      "tags": [
+        "Mechanics",
+        "Physics"
+      ],
+      "datePublished": "2022-01-23",
+      "pages": 150,
+      "language": "English",
+      "publisher": "Al-Biruni Academic Press",
+      "rating": 5,
+      "reviewCount": 20,
+      "inStock": false,
+      "featured": false
     }
   ]
 }

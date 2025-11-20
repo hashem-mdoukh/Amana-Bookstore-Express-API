@@ -11,8 +11,17 @@ let books = booksData?.books || [];
 let reviews = reviewsData?.reviews || [];
 
 // Get all books
-const getAllBooks = (res) => {
-  res.json({
+const getAllBooks = (req, res) => {
+  return res.json({
+    message: "All books retrieved successfully",
+    status: 200,
+    count: books.length,
+    data: books,
+  });
+};
+
+exports.getAllBooks = (req, res) => {
+  return res.json({
     message: "All books retrieved successfully",
     status: 200,
     count: books.length,
@@ -26,12 +35,14 @@ const getBookById = (req, res) => {
 
   const book = books.find((b) => b.id === +id);
 
-  if (!book)
+  if (!book) {
     return res.json({
       error: "Book not found please Porvide a a vailde ID",
       status: 404,
     });
-  res.json({
+  }
+
+  return res.json({
     message: "Book By ID retrieved successfully",
     status: 200,
     data: book,
@@ -44,8 +55,7 @@ const getBooksByRange = (req, res) => {
 
   if (!start || !end) {
     return res.json({
-      error:
-        "Please provide both 'start' and 'end' query parameters (YYYY-MM-DD).",
+      error:"Please provide both 'start' and 'end' query parameters (YYYY-MM-DD).",
       status: 400,
     });
   }
@@ -72,19 +82,20 @@ const getBooksByRange = (req, res) => {
     return date >= startDate && date <= endDate;
   });
 
-  res.status(200).json({
+  return res.json({
     message: "Books retrieved successfully by date range.",
+    status: 200,
     count: filtered.length,
     data: filtered,
   });
 };
 
 // Get top-rated books
-const getTopRatedBooks = (res) => {
+const getTopRatedBooks = (req, res) => {
   const sorted = [...books].sort(
     (a, b) => b.rating * b.reviewCount - a.rating * a.reviewCount
   );
-  res.json({
+  return res.json({
     message: "Top-rated books retrieved successfully",
     status: 200,
     data: sorted.slice(0, 10),
@@ -92,9 +103,9 @@ const getTopRatedBooks = (res) => {
 };
 
 // Get featured books
-const getFeaturedBooks = (res) => {
+const getFeaturedBooks = (req, res) => {
   const featured = books.filter((b) => b.featured);
-  res.json({
+  return res.json({
     message: "Featured books retrieved successfully",
     status: 200,
     data: featured,
@@ -108,7 +119,7 @@ const getBookReviews = (req, res) => {
   if (!bookExists) return res.json({ error: "Book not found", status: 404 });
 
   const related = reviews.filter((r) => r.bookId === +id);
-  res.json({
+  return res.json({
     message: "Book reviews retrieved successfully",
     status: 200,
     data: related,
@@ -121,7 +132,7 @@ const searchBooks = (req, res) => {
     const { name, start, end, rate } = req.query;
 
     if (!books || books.length === 0) {
-      return res.json({ 
+      return res.json({
         error: "No books available.",
         status: 404,
       });
@@ -141,7 +152,7 @@ const searchBooks = (req, res) => {
       const endDate = end ? new Date(end) : new Date();
 
       if (isNaN(startDate.getTime()) || isNaN(endDate.getTime())) {
-        return res.json({ 
+        return res.json({
           error: "Invalid date format. Use YYYY-MM-DD.",
           status: 400,
         });
@@ -172,7 +183,7 @@ const searchBooks = (req, res) => {
       filtered = filtered.filter((b) => b.rating >= rateNum);
     }
 
-    res.json({
+    return res.json({
       message: "Books filtered successfully.",
       status: 200,
       totalResults: filtered.length,
@@ -180,7 +191,10 @@ const searchBooks = (req, res) => {
     });
   } catch (error) {
     console.error("Error filtering books:", error);
-    res.status(500).json({ error: "Internal server error." });
+    return res.json({
+      error: "Internal server error.",
+      status: 500,
+    });
   }
 };
 
@@ -243,7 +257,7 @@ const addBook = (req, res) => {
 
   fs.writeFileSync(booksPath, JSON.stringify({ books }, null, 2));
 
-  res.json({
+  return res.json({
     message: "Book added successfully",
     status: 201,
     book: newBook,
@@ -267,13 +281,13 @@ const deleteBookById = (req, res) => {
 
     fs.writeFileSync(booksPath, JSON.stringify({ books }, null, 2));
 
-    res.json({
+    return res.json({
       message: "Book deleted successfully",
       status: 200,
     });
   } catch (err) {
     console.error("Error deleting book:", err);
-    res.json({
+    return res.json({
       error: "Internal Server Error",
       message: "An unexpected error occurred",
       status: 500,

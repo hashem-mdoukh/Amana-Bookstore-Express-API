@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
+const connectDB = require('./Configuration/db');
+require('dotenv').config(); // Must be at the top
 const fs = require('fs');
 const path = require('path');
 const booksRoutes = require('./routes/booksRoutes');
@@ -8,6 +10,8 @@ const reviewsRoutes = require('./routes/reviewsRoutes');
 const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
+
+connectDB();
 
 // Define the path to data/logging/log.txt
 const logFilePath = path.join(__dirname, '..', 'logging', 'log.txt');
@@ -32,6 +36,8 @@ app.use(cors());
 app.use(express.json()); 
 
 // --- END MIDDLEWARES ---
+
+
 
 
 // Routes
